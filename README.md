@@ -6,3 +6,4 @@ Things really do get crazy sometimes. There are always bugs that may take from 5
 So the following will be the problems that I've faced by far, all during doing the projects of Funktional Stdo and how I've solved them. I hope these become useful to somebody when they're facing similar problems!
 
 ## List of Problems:
+- [Segmentation fault inside a for loop when accessing struct variables (PortAudio callback function)](https://github.com/funktional-stdo/problems-and-solutions/blob/main/segmentation-fault-loop.md)
