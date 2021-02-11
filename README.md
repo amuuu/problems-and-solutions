@@ -8,4 +8,4 @@ So the following will be the problems that I've faced by far, all during doing t
 ## List of Problems:
 - [Segmentation fault inside a for loop when accessing struct variables (PortAudio callback function)](https://github.com/funktional-stdo/problems-and-solutions/blob/main/segmentation-fault-loop.md)
 - [Empty std::list object even after appending new members](https://github.com/funktional-stdo/problems-and-solutions/blob/main/empty-list.md)
-- [Polymorphism not working](https://github.com/funktional-stdo/problems-and-solutions/blob/main/polymorphism-not-working)
+- [Polymorphism not working](https://github.com/funktional-stdo/problems-and-solutions/blob/main/polymorphism-not-working.md)
