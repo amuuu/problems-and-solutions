@@ -16,7 +16,7 @@ void a() { /* stuff */ }
 // this makes a class abstract.
 virtual void a() = 0;
 
-// this lets polymorphism happen the way I want; 
+// this lets polymorphism happen the way I want; this should exist in the BaseClass
 virtual void a() { }
 ```
 
@@ -24,4 +24,4 @@ In the third case, the child class overrides the method in this way:
 ```
 void a() { /* childs content */ }
 ```
-And when you write a child object on a parent object and call the method `a()`, the child's implementation will be called.
+And when you write a child object on a parent object and call the method `a()`, the child's implementation will be called. It all comes down to the `virtual` keyword.
