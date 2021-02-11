@@ -3,7 +3,7 @@
 
 #### Description:
 
-Suppose `BaseClass` has a bunch of childs and I wanted to have a collection of its child's objects. So naturally I created a list with the `BaseClass` type. Logically, when adding objects to the list polymorphism should happen and when you want to access an object inside the list and call a function of that object, you expect that the function from that **child class** will be called but it was not working as I was expecting.
+Suppose `BaseClass` has a bunch of childs and I wanted to have a collection of its child's objects. So naturally I created a list with the `BaseClass` type. Logically, when adding objects to the list polymorphism should happen and when you want to access an object inside the list and call a function of that object, you expect that the function from that **child class** will be called but it was not working as I was expecting. Instead, the implementation of the `BaseClass` was being called.
 
 #### Solution that worked:
 
