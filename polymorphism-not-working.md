@@ -14,7 +14,7 @@ Turned out that the solution was purely based on syntax;
 void a() { /* stuff */ }
 
 // this makes a class abstract.
-virtual void a() = 0 
+virtual void a() = 0;
 
 // this lets polymorphism happen the way I want; 
 virtual void a() { }
